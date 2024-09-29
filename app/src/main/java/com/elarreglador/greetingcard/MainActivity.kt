@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface (color = Color.Green){
         Text(
-            text = "Hello, my nafdgme is $name!",
+            text = "Hello, my name is $name!",
             modifier = Modifier.padding(24.dp)
         )
     }
